@@ -1,5 +1,6 @@
 import Greeting from './drills/Greeting';
 import Counter from  './drills/Counter'
+import Parent from   './drills/Parent-Child/Parent'
 
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
       <h2>🎯 Drill 2: Counter</h2>
       <Counter/>
       
+      <hr />
+
+      <h2>🎯 DRILL 3: Parent-Child Communication </h2>
+      <Parent/>
       <hr />
 
     </div>
