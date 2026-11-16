@@ -1,4 +1,5 @@
 import Greeting from './drills/Greeting';
+import Counter from  './drills/Counter'
 
 
 function App() {
@@ -18,6 +19,11 @@ function App() {
       <h2>🎯 Drill 1: Greeting Component</h2>
       <Greeting name="React Dev" subtitle="Welcome to the drills!"/>
 
+      <hr />
+
+      <h2>🎯 Drill 2: Counter</h2>
+      <Counter/>
+      
       <hr />
 
     </div>
