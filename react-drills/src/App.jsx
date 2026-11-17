@@ -1,6 +1,8 @@
 import Greeting from './drills/Greeting';
 import Counter from  './drills/Counter'
 import Parent from   './drills/Parent-Child/Parent'
+import UserList from './drills/UserList'
+import LoginForm from './drills/LoginForm'
 
 
 function App() {
@@ -29,7 +31,22 @@ function App() {
 
       <h2>🎯 DRILL 3: Parent-Child Communication </h2>
       <Parent/>
+
       <hr />
+
+     <h2>🎯 DRILL 4: Lists & Keys - STEP BY STEP GUIDE </h2>
+      <UserList users = {[
+     { id: 1, name: 'Alice', role: 'admin' },
+     { id: 2, name: 'Bob', role: 'user' },
+     { id: 3, name: 'Charlie', role: 'user' },
+       ]} />
+      
+     <hr />
+    <h2>🎯 DRILL 5: Controlled Form  </h2>
+     <LoginForm/>
+     <hr />
+
+
 
     </div>
   );
